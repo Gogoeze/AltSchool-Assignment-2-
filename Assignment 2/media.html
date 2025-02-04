@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) and (orientation:landscape) {
+}
+h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+nav{
+    font-family: cursive;
+    color: rgba(165, 42, 42, 0.884);
+}
+.container{
+    background-color: rgba(165, 42, 42, 0.884);
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container > div{
+    background-color: rgba(165, 42, 42, 0.726);
+    width: 80%;
+    height: 80vh;
+    margin: 10px;
+    text-align: center;
+}
+.image{
+    width: 90%;
+    height: 80vh;
+}
+.video{
+    width: 90%;
+    height: 80vh;
+}
+.audio{
+   padding-top: 100px;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="media.html">Media Assignment</a>
+        <a href="table.html">Table Assignment</a>
+    </nav>
+    <h1>THE MEDIA ELEMENT</h1>
+
+     <div class="container">
+    <div><img class="image" src="WhatsApp Image 2024-12-27 at 12.23.20 PM.jpeg"></div>
+    <div><audio class="audio" src="WhatsApp Ptt 2024-12-27 at 12.21.27 PM.ogg" controls></audio> </div>
+    <div><video class="video" src="WhatsApp Video 2024-12-27 at 12.19.12 PM.mp4"controls></video></div>
+ </div>
+</body>
+</html>

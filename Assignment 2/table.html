@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: cursive;
+        }
+        caption{
+            font-size: 40px;
+        }
+        table{
+            background-color: rgb(95, 92, 92);
+            box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+            align-items: center;
+            justify-content: center;
+            height: 80vh;
+            width: 90%;
+            margin: 5px;
+            margin-left: 40px;
+            padding: 20px;
+        }
+        nav{
+            font-family: cursive;
+            color: blueviolet   ;
+        }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <a href="table.html">Table Assignment</a>
+            <a href="media.html">Media Assignment</a>
+        </nav>
+    <table border="solid">
+        <caption>Table assignment</caption>
+          <thead>
+        
+            <thead>
+                <th> School</th>
+                <th colspan="4"> Courses</th>
+            </thead>
+
+            <th> School of Engineering</th>
+            <td>Frontend Engineering</td>
+            <td>Backend Engineering</td>
+            <td>Cloud Engineering</td>
+            <td>Cybersecurity</td>
+           </tr>
+
+           <tr>
+            <th>School of Product</th>
+            <td>Product Design</td>
+            <td>Marketing</td>
+            <td colspan="2">Management</td>
+           </tr>
+
+           <tr aria-rowspan="4">
+            <th>School of Data</th>
+            <td>Data Analysis</td>
+            <td>Science</td>
+            <td colspan="2">Engineering</td>
+           </tr>
+        </thead>
+    </table>
+</body>
+</html>
